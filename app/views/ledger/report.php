@@ -11,7 +11,7 @@ foreach ($rows as $r):
 <tr>
 <td><?= $r['type']=='debit' ? $r['amount'] : '' ?></td>
 <td><?= $r['type']=='credit' ? $r['amount'] : '' ?></td>
-<td><?= $balance ?></td>
+<td><?= $balance ?></td> hrr
 </tr>
 
 <?php endforeach; ?>
